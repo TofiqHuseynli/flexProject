@@ -1,0 +1,402 @@
+body,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar{
+    width: 100%;
+    height: 3em;
+    background-color: rgb(78, 166, 207);
+}
+
+.navbarContent{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    color: white;
+    font-weight: bold;
+    font-size: 1.3em;
+    margin: 1.2em;
+    cursor:default;
+
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    margin-right: 0.5em;   
+}
+
+.links .btn{
+    margin: 0.7em;
+    
+    
+    
+}
+
+.links .home{
+    color: #F28903;
+}
+
+.links button{
+    font-size: 0.9em;
+    color: white;
+    font-weight: bold;
+    background: none;
+    border: none;
+}
+
+.links button:hover{
+    color:  #F28903;
+    cursor: pointer;
+    
+}
+
+
+
+
+
+.image{
+    position: relative;
+    width: 100%;
+    background-color: black;
+    
+}
+
+.bg-image{
+    opacity: 0.6;
+    height: 100vh;
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    
+    
+}
+
+.center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+
+}
+
+.site{
+    color: white;
+    text-align: center;
+    font-size: 4em;
+    
+
+}
+.center img{
+    width: 15em;
+    height: 15em;
+    
+    
+}
+
+/* Info section start */
+
+.info{
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.card{
+    width: 22em;
+    height: 25vh;
+    
+}
+
+.card-2:hover .card-header ,.card-3:hover .card-header {
+    color: #F28903;
+    transition: 0.3s ease;
+    
+
+}
+
+.card h3{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.card p{
+    margin-top: 0.5em;
+    opacity: 0.8;
+}
+
+.card-1 img{
+    width: 22em;
+    margin-top: 0.5em;
+    border-radius: 0.8em;
+}
+
+/* Info section end */
+
+/*About us section start */
+.aboutUs{
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-color: rgb(53, 52, 52);
+    color:white;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.aboutUs-card{
+    width: 40em;
+    height: 45vh;
+    justify-content: center;
+
+  
+}
+
+
+
+.aboutUs-card p{
+    margin-top: 0.5em;
+    font-size: 0.9em;
+    opacity: 0.9;
+}
+
+.rightSide{
+    display: flex;
+    flex-direction: column;
+    
+    
+    
+    
+}
+
+.element{
+    background-color: rgb(235, 228, 228);
+    color: rgb(28, 158, 197);
+    width: 13.5em;
+    height: 7.8em;
+    margin: 0.8em;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: bold;
+    transition: 0.3s ease;
+    
+}
+
+.element:hover{
+    background-color:#F28903;
+    cursor: pointer;
+}
+
+.element i{
+    font-size: 1.4em;
+}
+
+.element-up{
+    display: flex;
+    height: 100%;
+    
+    
+}
+
+.element-down{
+    display: flex;
+}
+
+
+/*About us section end */
+
+
+/* Process section start */
+
+.process{
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner{
+    display: flex;  
+}
+.inner-card{
+    background-color:#D8F6FF;
+    margin: 1em;
+    border-radius: 0.5em;
+    width: 28em;
+    height: 14em;
+    text-align: center;
+    padding: 3em;
+    
+}
+
+
+
+.inner-card h3{
+    color:#4D95AE;
+    font-size: 1.4em;
+    margin-bottom: 0.5em;
+}
+
+
+
+/* Process section end */
+
+/* Rate section start */
+
+.rate{
+    width: 100%;
+    height: 55vh;
+    display: flex;
+    justify-content: center;
+    background-color:#5ba1b8 ;
+}
+
+.rate-card{
+    background-color:#272727 ;
+    width: 25em;
+    height: 18em;
+    margin: 4em 2em;
+    border-radius: 0.9em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2em;
+    
+    
+}
+
+.rate-card img{
+    width: 6em;
+    height: 6em;
+    border-radius: 50%;
+    
+}
+
+.rate-card p{
+    color: white;
+    opacity: 0.8;
+    margin: 1em 0em;
+}
+
+
+
+.star i{
+    margin:-0.22em;
+    color: #A2E4FC;
+}
+/* Rate section end */
+
+/* Contact section start */
+
+.contact{
+    margin-top: 5em;
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-header{
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 2em;
+}
+
+.contact-form{
+    width: 55em;
+
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.contact-form form input{
+    padding: 1.5em;
+    margin: 10px;
+    border-radius: 0.8em;
+    border: #CBCBCB solid 0.2em;
+}
+
+.contact-form form input:focus{
+    outline: none;
+}
+
+
+.contact-form form textarea{
+    margin: 10px;
+    padding: 1.5em;
+}
+
+.contact-form form button{
+    padding: 0.8em 1.4em;
+    margin: 10px;
+    border-radius: 0.8em;
+    border: #CBCBCB solid 0.2em;
+    background-color:#4D95AE;
+    font-size: 1.2em;
+    color: white;
+    transition: 0.3s ease;
+
+}
+
+.contact-form form button:hover{
+    cursor: pointer;
+    background-color: #F28903;
+    
+}
+/* Contact section start */
+
+/* Footer section start */
+.footer{
+    width: 100%;
+    height: 12vh;
+    background-color:#4D95AE ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer p{
+    height: 1.7em;
+    color: white;
+    margin-right: 1em;
+}
+
+.footer span{
+    height: 1.7em;
+    color: #FF005B;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+.footer span:hover{
+    cursor: pointer;
+}
+/* Footer section end */
